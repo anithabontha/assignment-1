@@ -1,0 +1,38 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+ans: HTTP1.1
+     a) It supports connection reuse for every TCP connection and pipeling.
+     b) a warning header field to carry additional information about the status of a message.there are 24 status codes.
+     c) digest authentication, NTLM authentication makes it more secure
+     d) Expands caching ctrl,conditional headers
+     e)  faster delivery of web pages and reduces web traffic.
+     HTTP2
+     a)multiplexing, over a single TCP connection 
+     b)status codes remains the same
+     c) more secure than previous versions
+     d) caching is similar to previous version but already pushed stream can also be cancelld
+     e)multiplexing and server push to reduce page load
+    
+2.Write a blog about objects and its internal representation in Javascript
+ ans: An object, is a reference data type.
+ In JavaScript, an object is an entity, with properties and type.
+ an object define the characteristics of the object.
+ objectName.propertyName......> To access the properties of an object with a simple dot-notation
+ For example
+   my car is an object
+   properties taken like model,make,year.
+   const myCar = new Object();
+   myCar.make = 'Ford';
+   myCar.model = 'Mustang';
+   myCar.year = 1969;
+   object initializer
+   const myCar = {
+  make: 'Ford',
+  model: 'Mustang',
+  year: 1969
+};
+Unassigned properties of an object are undefined (and not null).
+access the properties of the myCar object as follows:
+myCar['make'] = 'maruthi';
+myCar['model'] = 'alto';
+myCar['year'] = 2016;
+ 
